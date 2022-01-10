@@ -81,7 +81,7 @@ section {
 }
 
 .section-title {
-    font-size: 48px;
+    font-size: 4vw;
     color: var(--primary-color);
     border-right: 5px solid;
     text-align: center;
@@ -110,19 +110,21 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .hero h2 {
-    font-size: 72px;
+    font-size: 7vw;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0,0,0, 0.5);
-    float: right;
+    text-align: center;
 }
 
 .hero p {
-    font-size: 48px;
+    font-size: 5vw;
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    text-align: center;
 
 }
 
@@ -138,7 +140,7 @@ section {
 
 .bulk p {
     color: var(--primary-color);
-    font-size: 23px;
+    font-size: 2vw;
     padding-left: 50px; 
 }
 
@@ -152,7 +154,7 @@ section {
 
 .bulk ul li {
     padding: 10px 15px;
-    font-size: 1.55vw;
+    font-size: 2vw;
     text-decoration: underline;
 }
 
@@ -161,10 +163,14 @@ section {
     background-color: rgba(165, 178, 181);
 }
 
-.bulk-img {
-    height: 320px;
-    width: 480px;
-    
+.my-work img {
+    height: auto;
+    max-width: 100%;
+}
+
+.my-work img:hover {
+    background: rgba(165, 178, 181, .5);
+    color: var(--primary-color);
 }
 
 /* bulk style end */
