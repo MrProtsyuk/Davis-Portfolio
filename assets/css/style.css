@@ -163,9 +163,21 @@ section {
     background-color: rgba(165, 178, 181);
 }
 
-.my-work img {
-    height: auto;
-    max-width: 100%;
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainIMG{
+    height: 400px;
+    max-width: 1000px;
+}
+
+#IMG{
+    height: 200px;
+    width: 650px;
 }
 
 .my-work img:hover {
